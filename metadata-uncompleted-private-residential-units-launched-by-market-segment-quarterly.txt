@@ -1,0 +1,75 @@
+# Metadata for Uncompleted Private Residential Units Launched in the Quarter by Market Segment, Quarterly
+---
+Identifier: '21c9157d-29b9-4b2f-9181-db34d28c1dd4'
+Name: 'uncompleted-private-residential-units-launched-by-market-segment-quarterly'
+Title: 'Uncompleted Private Residential Units Launched in the Quarter by Market Segment,
+  Quarterly'
+Description:
+  - 'Units Launched : This is compiled based on returns from licensed developers.
+    With effect from 25 May 2015, the returns have been submitted to URA on a weekly
+    basis.'
+  - ''
+  - 'Core Central Region comprises Postal Districts 9, 10, 11, Downtown Core Planning
+    Area and Sentosa. A map of Central Region showing the Core Central Region (CCR)
+    and the Rest of Central Region (RCR) is available at: https://spring.ura.gov.sg/lad/ore/login/map_ccr.pdf'
+  - ''
+  - 'Rest of Central Region comprises the area within Central Region that is outside
+    postal districts 9, 10, 11, Downtown Core Planning Area and Sentosa. A map of
+    Central Region showing the Core Central Region (CCR) and the Rest of Central Region
+    (RCR) is available at: https://spring.ura.gov.sg/lad/ore/login/map_ccr.pdf'
+  - ''
+  - 'Outside Central Region (OCR) refers to the planning areas which are outside the
+    Central Region.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'CCR'
+  - 'Core Central Region'
+  - 'Launched'
+  - 'Market Segment'
+  - 'OCR'
+  - 'Outside Central Region'
+  - 'Private Residential Units'
+  - 'Quarter'
+  - 'RCR'
+  - 'Rest of Central Region'
+  - 'Uncompleted'
+Publisher:
+  Name: 'Urban Redevelopment Authority'
+  Admin 1:
+    Name: 'Chee Tuck Chuen'
+    Department: 'URA'
+    Email: 'chee_tuck_chuen@ura.gov.sg'
+Sources:
+  - 'Urban Redevelopment Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Quarterly'
+Coverage: '2004-01-01 to 2022-06-30'
+Last Updated: '2022-07-26T06:50:54.399759'
+Resources:
+  -
+    Identifier: '3e65e98f-d68f-4004-abab-8122753b7f90'
+    Title: 'Uncompleted Private Residential Units Launched in the Quarter by Market
+      Segment, Quarterly'
+    Url: 'https://storage.data.gov.sg/uncompleted-private-residential-units-launched-by-market-segment-quarterly/resources/uncompleted-private-residential-units-launched-in-the-quarter-by-market-segment-quarterly-2022-07-26T06-50-53Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2022-06-30'
+    Last Updated: '2022-07-26T06:50:53.698778'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'market_segment'
+        Title: 'Market segment'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'units'
+        Title: 'Units'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Units'
